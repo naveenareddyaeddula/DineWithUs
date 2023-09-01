@@ -1,0 +1,284 @@
+a {
+    color: white;
+}
+
+.logo {
+    width: 100px;
+    height: 70px;
+}
+
+.bg-pic {
+    background-image: url('https://iheartvirginiawine.com/wp-content/uploads/2014/03/restaurant-4.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+@media screen and (max-width:768px){
+	background-image: url('https://iheartvirginiawine.com/wp-content/uploads/2014/03/restaurant-4.jpg');
+	background-size: cover;
+    	height: 40vh;
+}
+.banner-head {
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+    /* color: white; */
+    padding-top:70px;
+}
+
+.caption {
+    font-weight: 300;
+    font-family: "Roboto";
+    font-size: 24px;
+    /* color: #f5f7fa; */
+}
+
+.button1 {
+    color: white;
+    height: 45px;
+    width: 130px;
+    border-radius: 8px;
+    background-color: #d0b200;
+    border-width: 0;
+    margin-right: 10px;
+}
+
+.button2 {
+    color: #d0b200;
+    height: 45px;
+    width: 130px;
+    border-radius: 8px;
+    background-color: transparent;
+    border-color: #d0b200;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 10px;
+}
+
+.wcu-section {
+    background-color: #f9fbfe;
+}
+
+.wcu-head {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.wcu-descb {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #5a7184;
+}
+
+.wcu-card {
+    background-color: white;
+    text-align: center;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.wcu-image {
+    height: 90px;
+    width: 87px;
+}
+
+.wcu-card-head {
+    color: #323f4b;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: "Roboto";
+}
+
+.wcu-card-descb {
+    font-family: "roboto";
+    font-size: 16px;
+    color: #7b8794;
+}
+
+.offers {
+    font-style: italic;
+    font-weight: 500;
+    color: #323f4b;
+}
+
+.ems-card {
+    border-radius: 16px;
+
+}
+
+.ems-section {
+    background-color: white;
+}
+
+.ems-head {
+    font-weight: 700;
+    font-family: "Roboto";
+    color: #183b56;
+    font-size: 28px;
+}
+.ems-sub-head{
+	font-weight: 700;
+    font-family: "Roboto";
+    color: #d0b200;
+    font-size: 28px;
+	padding-bottom:20px;
+	padding-top:20px;
+	text-decoration:underline;
+}
+.ems-image {
+    border-radius: 16px;
+	height:250px;
+}
+
+.ems-card-head {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 18px;
+    color: #323f4b;
+    margin-top: 24px;
+}
+
+.ems-card-link {
+    color: #d0b200;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.hfs {
+    background-color: #f9fbfe;
+}
+
+.hfs-img {
+    width: 270px;
+}
+
+.hfs-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+}
+
+.hfs-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.custom-button {
+
+    width: 130px;
+    height: 45px;
+    color: white;
+    background-image: linear-gradient(#d0b200, #a58d00);
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.dap-section-img {
+    width: 350px;
+	height: 300px;
+}
+
+.dap-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+}
+
+.dap-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.payment-card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.tc-section {
+    background-image: radial-gradient(#fff8db, #fae38c);
+}
+
+.tc-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+}
+
+.tc-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.tc-section-img {
+   width: 250px;
+    margin-bottom: 20px;
+}
+
+.tc-section-model-head {
+    color: #d0b200;
+    font-weight: 800;
+}
+
+.fus {
+    background-color: white;
+}
+
+.fus-head {
+    font-size: 28px;
+    color: #183b56;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.fus-icon {
+    font-size: 32px;
+    color: #d0b200;
+}
+
+.fus-icon-container {
+    width: 80px;
+    height: 80px;
+    background-color: #faf7e8;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+    margin: 15px;
+    border-radius: 40px;
+}
+
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-mail {
+    color: #959ead;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.footer-address {
+    color: #959ead;
+    font-family: "Roboto", serif;
+    font-size: 16px;
+}
+
+.header-section {
+    background-color: #88BDC8;
+
+}
